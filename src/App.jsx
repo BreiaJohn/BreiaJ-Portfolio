@@ -76,7 +76,7 @@ export default function App() {
   stack: ["HTML", "CSS", "Responsive Design"],
   link: "https://breiajohn.github.io/Fylo-landing-page-code-Challenge/",
   github: "https://github.com/BreiaJohn/Fylo-landing-page-code-Challenge",
-  image: "/public/projects/fylo.png",
+  image: "/projects/fylo.png",
   featured: false,
 },
     {
