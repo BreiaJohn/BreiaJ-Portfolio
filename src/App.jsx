@@ -11,10 +11,10 @@ export default function App() {
     "Supabase",
     "PostgreSQL",
     "Stripe",
-  ],
+   ],
   link: "https://yorly.co",
   github: "https://github.com/BreiaJohn/yorly-booking-app",
-  image: "public/projects/projects_yorly.png",
+  image: "/projects/projects_yorly.png",
   featured: true,
 },
 {
