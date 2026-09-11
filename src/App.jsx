@@ -1,15 +1,34 @@
 export default function App() {
   const projects = [
     {
-      title: "React Auth Dashboard",
-      description:
-        "A React authentication dashboard focused on login flow and protected UI structure.",
-      stack: ["React", "JavaScript", "Authentication", "UI Design"],
-      link: "https://react-auth-dashboard-512f7tno9-breiajohns-projects.vercel.app/login",
-      github: "https://github.com/BreiaJohn/react-auth-dashboard",
-      image: "/projects/auth-app.png",
-      featured: true,
-    },
+  title: "Yorly",
+  description:
+    "A full-stack booking platform for independent professionals to manage services, availability, clients, bookings, and payments.",
+  stack: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Supabase",
+    "PostgreSQL",
+    "Stripe",
+  ],
+  link: "https://yorly.co",
+  github: "https://github.com/BreiaJohn/yorly-booking-app",
+  image: "public/projects/projects_yorly.png",
+  featured: true,
+},
+{
+  title: "React Auth Dashboard",
+  description:
+   "A React authentication dashboard focused on login flow and protected UI structure.",
+  stack: ["React", "JavaScript", "Authentication", "UI Design"],
+  link: "https://react-auth-dashboard-512f7tno9-breiajohns-projects.vercel.app/login",
+  github: "https://github.com/BreiaJohn/Speed-Dial-App",
+  image: "/projects/auth-app.png",
+  featured: false,
+},
+
+
     {
   title: "Speed Dial App",
   description:
@@ -47,7 +66,7 @@ export default function App() {
       stack: ["JavaScript", "UI", "Frontend"],
       link: "https://breiajohn.github.io/Youtube-project/",
       github: "https://github.com/BreiaJohn/Youtube-project",
-      image: "/projects/youtube-clone.png",
+      image: "/projects/youtube_clone.png",
       featured: false,
     },
     {
@@ -89,6 +108,7 @@ export default function App() {
       image: "/projects/tribute.jpeg",
       featured: false,
     },
+
   ];
 
   const growthProjects = projects.filter((project) => !project.featured);
@@ -435,12 +455,17 @@ export default function App() {
               </div>
             </div>
           </div>
-        </section>
+                </section>
 
-        <footer className="mt-24 border-t border-white/10 py-12">
+
+
+        <footer className="mt-10 border-t border-white/10 py-10">
           <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-sm uppercase tracking-widest text-slate-400">
+
+
+
                 Contact
               </p>
               <h2 className="mt-2 text-3xl font-bold text-white">
