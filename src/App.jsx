@@ -14,7 +14,7 @@ export default function App() {
    ],
   link: "https://yorly.co",
   github: "https://github.com/BreiaJohn/yorly-booking-app",
-  image: "/projects/projects_yorly.png",
+  image: "/projects/yorly.png",
   featured: true,
 },
 {
